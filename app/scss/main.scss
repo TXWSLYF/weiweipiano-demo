@@ -1,0 +1,116 @@
+//Header.css
+.header {
+  background-color: #242424;
+  height: 70px;
+  margin-bottom: 10px;
+  a {
+    line-height: 70px;
+    color: white;
+    font-size: 1.5em;
+    &:nth-child(1) {
+      margin-left: 40px;
+    }
+  }
+}
+
+//OpernPanel.css
+.opern-panel-button-container {
+  margin-bottom: 15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  button {
+    margin-left: 10px;
+  }
+}
+
+//Book.scss
+.ant-card-body {
+  img {
+    width: 100%;
+    height: 250px;
+  }
+  h2 {
+    text-align: center;
+    margin: 3px;
+  }
+  &:hover {
+    background-color: gainsboro;
+  }
+  button:nth-child(2) {
+    float: right;
+  }
+  .book-edit-delete {
+    margin: 3px;
+  }
+}
+
+//AddBook.scss
+.book-add {
+  height: 362px;
+  line-height: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+//BookContainer
+.ant-col-4 {
+  min-width: 230px;
+  cursor: pointer;
+}
+
+//OpernList
+td.column-center {
+  text-align: center !important;
+  font-size: 1.1em;
+  img {
+    cursor: pointer;
+  }
+}
+
+th.column-center {
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.column-pagination {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+//Avatar.css
+
+.ant-upload.ant-upload-select-picture-card{
+  width: 200px;
+  height: 200px;
+}
+
+.ant-upload.ant-upload-select-picture-card > .ant-upload{
+  padding: 0;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 25px;
+  color: #666;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item{
+  width: 192px;
+  height: 192px;
+}
+.ant-upload-select-picture-card i {
+  font-size: 30px;
+  color: #999;
+}
+
+
+
+
+
+
+
+
